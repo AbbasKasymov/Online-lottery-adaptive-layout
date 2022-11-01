@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Main Div -->
+
+    <div class="main d-flex flex-row justify-content-between w-100">
+      <!-- Left block with contacts -->
+
+      <div class="questions">
+        <p><b class="red"> Questions?</b></p>
+        <p>contact us by:</p>
+        <p>
+          <b>Skype:</b> <br />
+          sales@mekashron.com
+        </p>
+        <p>or</p>
+        <p>
+          <b class="whatsapp">WhatsApp</b> <br />
+          +972559461380
+        </p>
+      </div>
+
+      <!-- Header -->
+
+      <div class="container-main w-100">
+        <header class="w-100 header mt-3 mb-1">
+          <div class="d-flex flex-row">
+            <div><img class="logo" src="./images/logo.png" alt="" /></div>
+            <div class="d-flex flex-column justify-content-center">
+              <p class="m-0">Welcome <b>Roma</b> - <a href="#">Logout</a></p>
+              <p class="m-0">Your balance: <b>P 0,00</b></p>
+            </div>
+          </div>
+          <div class="d-flex flex-column social-parent justify-content-between">
+            <div class="d-flex flex-row w-100 justify-content-between">
+              <img class="social" src="./images/facebook.png" alt="" />
+              <img class="social" src="./images/twitter.png" alt="" />
+              <img
+                class="social"
+                src="./images/facebook-messenger.png"
+                alt=""
+              />
+              <img class="social" src="./images/whatsapp.png" alt="" />
+            </div>
+            <div
+              class="d-flex flex-row w-100 justify-content-between align-items-center"
+            >
+              <img class="country" src="./images/Country.png" alt="" />
+              <select class="languages" name="Language">
+                <option value="Language">Language</option>
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+              </select>
+            </div>
+          </div>
+        </header>
+
+        <!-- Navigation and Burger menu -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="btn navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><img src="../index/images/menu.png" alt="" /></span>
+            </button>
+            <div
+              class="collapse navbar-collapse nav-pages"
+              id="navbarTogglerDemo03"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PLAY ALL LOTTERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LOTTERY GROUPS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PROMOTIONS</a>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="navbar-logo">
+              <img src="./images/logo.png" alt=""
+            /></a>
+            <a class="navbar-brand" href="#">MY ACCOUNT</a>
+            <a href="#" class="navbar-avatar"
+              ><img src="./images/avatar.png" alt=""
+            /></a>
+          </div>
+        </nav>
+
+        <!-- Welcome text for mobile version -->
+
+        <div class="welcome">
+          <p class="m-0">Welcome <b>Roma</b> - <a href="#">Logout</a></p>
+          <p class="m-0">Your balance: <b>P 0,00</b></p>
+        </div>
+
+        <!-- Banner -->
+
+        <section class="w-100 mt-4">
+          <img class="banner" src="./images/banner.png" alt="" />
+        </section>
+
+        <!-- Steps -->
+
+        <section class="steps-main w-100 p-3">
+          <div
+            class="d-flex flex-row justify-content-start align-items-center steps steps-one p-2"
+          >
+            <img src="./images/youPick.png" alt="" />
+            <div
+              class="d-flex flex-column justify-content-between steps-text p-2"
+            >
+              <div class="d-flex flex-row justify-content-between steps-title">
+                <h3>YOU PICK</h3>
+                <a href="#">Play Now >></a>
+              </div>
+              <p>
+                It’s easy! Pick from over 40 official lottery games you wish to
+                play. Then select your winning numbers.
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row justify-content-start align-items-center steps steps-two p-2"
+          >
+            <img src="./images/weBuy.png" alt="" />
+            <div
+              class="d-flex flex-column justify-content-between p-2 steps-text"
+            >
+              <div class="d-flex flex-row justify-content-between steps-title">
+                <h3>WE BUY</h3>
+                <a href="#">More Details >></a>
+              </div>
+              <p>
+                Once you’ve picked your winning numbers we’ll purchase your
+                ticket on your behalf.
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row justify-content-start align-items-center steps steps-three p-1"
+          >
+            <img src="./images/youWin.png" alt="" />
+            <div
+              class="d-flex flex-column justify-content-between p-2 steps-text"
+            >
+              <div class="d-flex flex-row justify-content-between steps-title">
+                <h3>YOU WIN!!!</h3>
+                <a href="#">Withdraw >></a>
+              </div>
+              <p>
+                When you win, we’ll automatically credit your account the full
+                value of your winnings.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Upcoming lottery -->
+
+        <section
+          class="d-flex flex-column flex-wrap justify-content-between p-3 pt-0"
+        >
+          <h2 class="lottery-title">BIGGEST UPCOMING LOTTERY DRAWS</h2>
+          <div class="mega-main w-100">
+            <div class="d-flex flex-column justify-content-between mega-mil">
+              <div class="d-flex flex-row mega-up align-items-center">
+                <img
+                  class="mill-logo"
+                  src="./images/mega-millions-logo.png"
+                  alt=""
+                />
+                <div
+                  class="d-flex flex-column justify-content-between mega-up-right"
+                >
+                  <div
+                    class="d-flex flex-row justify-content-between align-items-center mega-up-right-title p-2"
+                  >
+                    <img
+                      class="mill-title-logo"
+                      src="./images/Country.png"
+                      alt=""
+                    />
+                    <span class="mill-title-text">MEGA MILLIONS</span>
+                  </div>
+                  <span class="mill-title-amount">$94 000 000</span>
+                </div>
+              </div>
+              <div class="d-flex flex-row p-2 mega-down">
+                <button>Play Now</button>
+                <div class="d-flex flex-row mega-down-clock align-items-center">
+                  <img src="./images/alarm.png" alt="" />
+                  <span>1:22:01</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column justify-content-between mega-mil">
+              <div class="d-flex flex-row mega-up align-items-center">
+                <img
+                  class="mill-logo"
+                  src="./images/mega-millions-logo2.png"
+                  alt=""
+                />
+                <div
+                  class="d-flex flex-column justify-content-between mega-up-right"
+                >
+                  <div
+                    class="d-flex flex-row justify-content-between align-items-center mega-up-right-title p-2"
+                  >
+                    <img
+                      class="mill-title-logo"
+                      src="./images/Country.png"
+                      alt=""
+                    />
+                    <span class="mill-title-text">MEGA MILLIONS</span>
+                  </div>
+                  <span class="mill-title-amount">$94 000 000</span>
+                </div>
+              </div>
+              <div class="d-flex flex-row p-2 mega-down">
+                <button>Play Now</button>
+                <div class="d-flex flex-row mega-down-clock align-items-center">
+                  <img src="./images/alarm.png" alt="" />
+                  <span>1:22:01</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column justify-content-between mega-mil">
+              <div class="d-flex flex-row mega-up align-items-center">
+                <img
+                  class="mill-logo"
+                  src="./images/mega-millions-logo3.png"
+                  alt=""
+                />
+                <div
+                  class="d-flex flex-column justify-content-between mega-up-right"
+                >
+                  <div
+                    class="d-flex flex-row justify-content-between align-items-center mega-up-right-title p-2"
+                  >
+                    <img
+                      class="mill-title-logo"
+                      src="./images/Country.png"
+                      alt=""
+                    />
+                    <span class="mill-title-text">MEGA MILLIONS</span>
+                  </div>
+                  <span class="mill-title-amount">$94 000 000</span>
+                </div>
+              </div>
+              <div class="d-flex flex-row p-2 mega-down">
+                <button>Play Now</button>
+                <div class="d-flex flex-row mega-down-clock align-items-center">
+                  <img src="./images/alarm.png" alt="" />
+                  <span>1:22:01</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Upcoming lotteries -->
+        <section
+          class="d-flex flex-column justify-content-between upcom-main p-3"
+        >
+          <div class="upcom-lot d-flex justify-content-center">
+            PLAY UPCOMING LOTTERIES ONLINE
+          </div>
+          <div class="lot-main">
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+
+            <div
+              class="d-flex flex-column justify-content-between align-items-center lot-item"
+            >
+              <div class="w-100 d-flex justify-content-center upcom-lot-icons">
+                <img src="./images/mega-millions-logo4.png" alt="" />
+                <img
+                  class="upcom-lot-icons-star"
+                  src="./images/star.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex flex-row justify-content-between align-items-center upcom-lot-flag"
+              >
+                <img
+                  class="mill-title-logo"
+                  src="./images/Country.png"
+                  alt=""
+                />
+                <span class="mill-title-text">MEGA MILLIONS</span>
+              </div>
+              <p class="up-lots">$122 000 000</p>
+              <div class="d-flex flex-row upcom-clock align-items-center">
+                <img src="./images/alarm2.png" alt="" />
+                <span>1:22:01</span>
+              </div>
+              <button class="upcom-btn">Play Now</button>
+            </div>
+          </div>
+
+          <a href="#">More Details >></a>
+        </section>
+
+        <!-- Winners -->
+
+        <section
+          class="winners-main p-3 w-100 d-flex flex-row justify-content-between"
+        >
+          <div class="d-flex flex-column winners-large">
+            <div class="w-100 winners-title d-flex justify-content-center">
+              BIGGEST LOTTERY WINNER
+            </div>
+            <div
+              class="d-flex flex-column justify-content-evenly winners-main-block"
+            >
+              <div
+                class="d-flex flex-row winners-main-title mb-3 w-100 justify-content-center align-items-center"
+              >
+                <img src="./images/lotto.png" alt="" />
+                <div
+                  class="d-flex flex-row winners-main-title-text align-items-center"
+                >
+                  <span class="winners-main-title-text-one">WON</span>
+                  <span class="winners-main-title-text-two">€100 000 000</span>
+                </div>
+              </div>
+              <div class="d-flex flex-row px-3 winners-main-big-part flex-wrap">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-between winners-main-big-part-left"
+                >
+                  <img class="winners-img" src="./images/winners.png" alt="" />
+                  <div class="d-flex flex-row mt-3 results-block-main">
+                    <p class="loto-results">UK LOTTO RESULTS:</p>
+
+                    <div class="d-flex flex-column ms-2 results-block">
+                      <div
+                        class="d-flex flex-row results-number justify-content-evenly w-100"
+                      >
+                        <img src="./images/number.png" alt="" />
+                        <img src="./images/number.png" alt="" />
+                        <img src="./images/number.png" alt="" />
+                        <img src="./images/number.png" alt="" />
+                        <img src="./images/number.png" alt="" />
+                      </div>
+                      <p class="m-0">Date: 20.11.2021</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="d-flex flex-column justify-content-between winners-text"
+                >
+                  <p class="winners-text-title">Hello World</p>
+                  <p class="winners-text-desc">
+                    Shaun Vincent, from Barnsley, celebrates his £1,158,038
+                    National Lottery win after his cheque presentation at the
+                    Cedar Court Hotel, Wakefield.
+                  </p>
+                  <a href="#" class="w-100 d-flex justify-content-center"
+                    >Read the full story</a
+                  >
+                  <button>Play Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column align-items-center winners-right-block"
+          >
+            <div class="d-flex flex-column latest-win-title">
+              OUR LATEST WINNERS
+            </div>
+            <div class="d-flex flex-column w-100 h-100">
+              <div
+                class="d-flex flex-column justify-content-between align-items-center win-stat"
+              >
+                <span class="total-prizes">Total prizes paid out</span>
+                <span class="us-amount p-2">US$ 107 233 768</span>
+                <div class="d-flex flex-row">
+                  <span class="win-amount">6 975 146</span>
+                  <span class="win-tickets">winning tickets</span>
+                </div>
+              </div>
+              <div class="w-100 win-stat-dates-block">
+                <div class="d-flex flex-column w-100 win-stat-dates">
+                  <div class="d-flex flex-row align-items-center p-2">
+                    <img
+                      style="width: 75px; height: 58px"
+                      src="./images/winner 1.png"
+                      alt=""
+                    />
+                    <div style="margin-left: 10px">
+                      <span>20.11.2021</span>
+                      <div class="d-flex flex-row">
+                        <img
+                          style="margin-right: 5px"
+                          src="./images/german.png"
+                          alt=""
+                        />
+                        <span style="font-weight: 500; font-size: 14px"
+                          >J.J won Р175</span
+                        >
+                      </div>
+                      <spa style="color: #5f5f5f" n>in 7 ИЗ 49 draw #13476</spa>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column w-100 win-stat-dates">
+                  <div class="d-flex flex-row align-items-center p-2">
+                    <img
+                      style="width: 75px; height: 58px"
+                      src="./images/winner 1.png"
+                      alt=""
+                    />
+                    <div style="margin-left: 10px">
+                      <span>20.11.2021</span>
+                      <div class="d-flex flex-row">
+                        <img
+                          style="margin-right: 5px"
+                          src="./images/german.png"
+                          alt=""
+                        />
+                        <span style="font-weight: 500; font-size: 14px"
+                          >J.J won Р175</span
+                        >
+                      </div>
+                      <span style="color: #5f5f5f">in 7 ИЗ 49 draw #13476</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column w-100 win-stat-dates">
+                  <div class="d-flex flex-row align-items-center p-2">
+                    <img
+                      style="width: 75px; height: 58px"
+                      src="./images/winner 1.png"
+                      alt=""
+                    />
+                    <div style="margin-left: 10px">
+                      <span>20.11.2021</span>
+                      <div class="d-flex flex-row">
+                        <img
+                          style="margin-right: 5px"
+                          src="./images/german.png"
+                          alt=""
+                        />
+                        <span style="font-weight: 500; font-size: 14px"
+                          >J.J won Р175</span
+                        >
+                      </div>
+                      <span style="color: #5f5f5f">in 7 ИЗ 49 draw #13476</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- F.A.Q -->
+        <section class="p-3 questions-section">
+          <h3>FREQUENTLY ASKED QUESTION (F.A.Q.)</h3>
+          <div class="questions-main">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Can I play the lottery online?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quae repellendus cupiditate laboriosam unde est. Amet fugiat
+                    voluptas saepe eum, cumque ipsa beatae odit modi nam quae
+                    quisquam mollitia. Assumenda, autem?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    How will I get my wins?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et
+                    debitis facilis doloribus corrupti cupiditate perferendis
+                    natus ipsum cumque beatae sit. Sit veritatis voluptate
+                    delectus quo fugit iure distinctio ratione mollitia?
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Is it safe to play lottery online?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quidem, magni id. Aspernatur, consectetur in qui cupiditate
+                    dignissimos saepe quisquam enim perferendis ducimus?
+                    Possimus sed maxime veritatis amet architecto dignissimos!
+                    Rem.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item d-none"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- footer -->
+        <footer
+          class="footer w-100 d-flex flex-row justify-content-evenly align-items-center flex-wrap pb-5"
+        >
+          <div class="d-flex flex-column links-width">
+            <div class="d-flex flex-row align-items-center">
+              <img src="./images/whatsapp-wide.png" alt="" />
+              <div class="d-flex flex-column chat-main">
+                <span class="chat">Live chat by WhatsApp</span>
+                <span class="chat-service">Customer Service</span>
+              </div>
+            </div>
+            <span class="footer-points">USEFUL LINKS</span>
+            <div class="links-mobile">
+              <div class="d-flex flex-column footer-links">
+                <span>Home</span>
+                <span>Lottery Results & Winners</span>
+                <span>Lottery Promotions</span>
+                <span>About Us</span>
+                <span>Contact Us</span>
+              </div>
+              <div class="d-flex flex-column footer-links">
+                <span>Terms & Conditions</span>
+                <span>Security</span>
+                <span>Privacy Policy</span>
+                <span>Acceptable Use Policy</span>
+                <span>Website Use Policy</span>
+                <span class="affilate">Affiliate program</span>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column footer-content">
+            <span class="footer-points">SMARTWINNERS</span>
+            <p class="smartwinners-text">
+              The trade name SmartWinners and all content on this website is a
+              copyright of SmartWinners Limited. All rights reserved. We are an
+              independent lottery ticket purchasing service. We are not
+              affiliated with nor are we endorsed by any State sanctioned
+              lottery organization. We make no claims on our site to be such.
+            </p>
+            <p class="smartwinners-adress">
+              Our registered business address is Unit 6158, PO Box 6945, London,
+              W1A 6US, United Kingdom.
+            </p>
+          </div>
+          <div class="payment-block">
+            <div class="social-footer w-100">
+              <img src="./images/facebook.png" alt="" />
+              <img src="./images/twit.png" alt="" />
+              <img src="./images/messenger.png" alt="" />
+            </div>
+            <div class="d-flex flex-column">
+              <span class="footer-points">PAYMENT METHODS</span>
+              <div class="payment">
+                <img src="./images/Visa-dark.png" alt="" />
+                <img src="./images/MasterCard-dark.png" alt="" />
+                <img src="./images/Maestro-dark.png" alt="" />
+                <img src="./images/DinersClub-dark.png" alt="" />
+                <img src="./images/Skrill-dark.png" alt="" />
+                <img src="./images/Bitcoin-dark.png" alt="" />
+                <img src="./images/qiwi 1.png" alt="" />
+                <img src="./images/hsbc 1.png" alt="" />
+                <img src="./images/litecoin 1.png" alt="" />
+              </div>
+            </div>
+            <div class="d-flex flex-column">
+              <span class="footer-points">SECURITY & TRUST</span>
+              <div
+                class="d-flex flex-row w-100 justify-content-between align-items-center"
+              >
+                <img src="./images/ctv 1.png" alt="" />
+                <img src="./images/comodo 1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="empty"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
